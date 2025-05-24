@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Editor / SO
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# AWS credentials (caso estejam em arquivos locais, o que não é o ideal)
+*.pem
+.aws/
+
+# Testes
+coverage/
+*.lcov
+
+# Optional OS files
+Thumbs.db
