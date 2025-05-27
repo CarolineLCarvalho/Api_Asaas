@@ -85,9 +85,9 @@ export const requestCashOut = async (req: Request, res: Response) => {
     Item: {
       id: { S: withdrawalId },
       userId: { S: userId },
-      value: { N: value },
       description: { S: description },
-      status: { S: status},
+      status: { S: status},      
+      value: { N: String(value) },
       createdAt: { S: date }
     }
   };
